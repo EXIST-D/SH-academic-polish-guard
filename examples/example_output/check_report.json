@@ -1,0 +1,45 @@
+{
+ "verification": {
+  "integrity_ok": true,
+  "integrity_errors": [],
+  "sentences": 32,
+  "changed_sentences": 15,
+  "rejected_edits": 1,
+  "edits_with_warnings": 5,
+  "unresolved_issues_med_high": 1,
+  "mechanical_issues_open": 0,
+  "document_level_open": 2,
+  "mean_edit_ratio_changed": 0.17,
+  "facts_missing_in_revision": 0,
+  "facts_not_in_original": 0
+ },
+ "rejected": [
+  {
+   "sid": "S028",
+   "by": "model",
+   "type": "register",
+   "rule": "edit",
+   "revised": "Our findings differ from the opinion that stiffer matrices promote osteogenic differentiation.",
+   "reason": "tone down the absolute wording (this edit is meant to be REJECTED: it drops 'always', so it changes the claim the author makes)",
+   "errors": [
+    {
+     "severity": "error",
+     "kind": "quantifier_changed",
+     "detail": "quantifier class changed: removed universal; added - (all / some / most / few / only are different claims)"
+    }
+   ],
+   "ts": "2026-11-20T02:54:48Z"
+  }
+ ],
+ "issues_remaining": [
+  {
+   "sentence": "S029",
+   "rule": "claim_wording",
+   "cat": "claim_strength",
+   "severity": "med",
+   "text": "breakthrough",
+   "why": "promotional wording (do not weaken or strengthen on your own: flag for the author)",
+   "suggestion": null
+  }
+ ]
+}

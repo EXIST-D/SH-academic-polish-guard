@@ -1,0 +1,11 @@
+[
+ {
+  "sentence": "S029",
+  "rule": "claim_wording",
+  "cat": "claim_strength",
+  "severity": "med",
+  "text": "breakthrough",
+  "why": "promotional wording (do not weaken or strengthen on your own: flag for the author)",
+  "suggestion": null
+ }
+]

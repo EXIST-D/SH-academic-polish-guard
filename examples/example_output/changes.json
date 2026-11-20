@@ -1,0 +1,458 @@
+[
+ {
+  "id": "S003",
+  "paragraph": "P3",
+  "section": "Abstract",
+  "original": "With the development of tissue engineering, more and more researchers pay attention to the substrate stiffness.",
+  "revised": "With advances in tissue engineering, researchers are increasingly interested in substrate stiffness.",
+  "types": [
+   "wording"
+  ],
+  "by": [
+   "model"
+  ],
+  "reasons": [
+   "replaces the template opening \"With the development of ... more and more ... pay attention to\" with direct academic phrasing; meaning unchanged"
+  ],
+  "steps": [
+   {
+    "by": "model",
+    "type": "wording",
+    "from": "With the development of tissue engineering, more and more researchers pay attention to the substrate stiffness.",
+    "to": "With advances in tissue engineering, researchers are increasingly interested in substrate stiffness.",
+    "reason": "replaces the template opening \"With the development of ... more and more ... pay attention to\" with direct academic phrasing; meaning unchanged"
+   }
+  ],
+  "edit_ratio": 0.5,
+  "risk": [
+   {
+    "kind": "content_dropped",
+    "detail": "content words dropped: attention, develop, pay"
+   },
+   {
+    "kind": "content_added",
+    "detail": "new content words (not in the original): advanc, increasing, interest: no new information may be added"
+   }
+  ],
+  "needs_author": []
+ },
+ {
+  "id": "S005",
+  "paragraph": "P3",
+  "section": "Abstract",
+  "original": "The mineralised nodule area on 10 kPa gels were 2.3-fold higher than that on 40 kPa gels (p = 0.004, n = 6).",
+  "revised": "The mineralised nodule area on 10 kPa gels was 2.3-fold higher than that on 40 kPa gels (p = 0.004, n = 6).",
+  "types": [
+   "grammar"
+  ],
+  "by": [
+   "model"
+  ],
+  "reasons": [
+   "subject-verb agreement (area ... was)"
+  ],
+  "steps": [
+   {
+    "by": "model",
+    "type": "grammar",
+    "from": "The mineralised nodule area on 10 kPa gels were 2.3-fold higher than that on 40 kPa gels (p = 0.004, n = 6).",
+    "to": "The mineralised nodule area on 10 kPa gels was 2.3-fold higher than that on 40 kPa gels (p = 0.004, n = 6).",
+    "reason": "subject-verb agreement (area ... was)"
+   }
+  ],
+  "edit_ratio": 0.03,
+  "risk": [],
+  "needs_author": []
+ },
+ {
+  "id": "S006",
+  "paragraph": "P3",
+  "section": "Abstract",
+  "original": "Nuclear YAP localization was lower on soft gels, which suggests that YAP signaling may mediate a part of the stiffness response [3].",
+  "revised": "Nuclear YAP localisation was lower on soft gels, which suggests that YAP signalling may mediate part of the stiffness response [3].",
+  "types": [
+   "grammar",
+   "spelling"
+  ],
+  "by": [
+   "autofix",
+   "model"
+  ],
+  "reasons": [
+   "UK spelling used throughout: localization -> localisation; signaling -> signalling",
+   "\"a part of\" -> \"part of\"; spelling made consistent"
+  ],
+  "steps": [
+   {
+    "by": "autofix",
+    "type": "spelling",
+    "from": "Nuclear YAP localization was lower on soft gels, which suggests that YAP signaling may mediate a part of the stiffness response [3].",
+    "to": "Nuclear YAP localisation was lower on soft gels, which suggests that YAP signalling may mediate a part of the stiffness response [3].",
+    "reason": "UK spelling used throughout: localization -> localisation; signaling -> signalling"
+   },
+   {
+    "by": "model",
+    "type": "grammar",
+    "from": "Nuclear YAP localisation was lower on soft gels, which suggests that YAP signalling may mediate a part of the stiffness response [3].",
+    "to": "Nuclear YAP localisation was lower on soft gels, which suggests that YAP signalling may mediate part of the stiffness response [3].",
+    "reason": "\"a part of\" -> \"part of\"; spelling made consistent"
+   }
+  ],
+  "edit_ratio": 0.11,
+  "risk": [],
+  "needs_author": []
+ },
+ {
+  "id": "S007",
+  "paragraph": "P3",
+  "section": "Abstract",
+  "original": "The effect was not observed in a human cell line , so the results can not be generalised to all cell types.",
+  "revised": "The effect was not observed in a human cell line, so the results cannot be generalised to all cell types.",
+  "types": [
+   "mechanical"
+  ],
+  "by": [
+   "autofix"
+  ],
+  "reasons": [
+   "space_before_punct: ' ,' -> ','; can_not: 'can not' -> 'cannot'"
+  ],
+  "steps": [
+   {
+    "by": "autofix",
+    "type": "mechanical",
+    "from": "The effect was not observed in a human cell line , so the results can not be generalised to all cell types.",
+    "to": "The effect was not observed in a human cell line, so the results cannot be generalised to all cell types.",
+    "reason": "space_before_punct: ' ,' -> ','; can_not: 'can not' -> 'cannot'"
+   }
+  ],
+  "edit_ratio": 0.07,
+  "risk": [],
+  "needs_author": []
+ },
+ {
+  "id": "S009",
+  "paragraph": "P5",
+  "section": "Introduction",
+  "original": "It is well known that substrate stiffness plays an important role in stem cell fate [1,2].",
+  "revised": "Substrate stiffness is known to influence stem cell fate [1,2].",
+  "types": [
+   "wording"
+  ],
+  "by": [
+   "model"
+  ],
+  "reasons": [
+   "\"It is well known that ... plays an important role in\" is a template phrase; the cited claim is kept"
+  ],
+  "steps": [
+   {
+    "by": "model",
+    "type": "wording",
+    "from": "It is well known that substrate stiffness plays an important role in stem cell fate [1,2].",
+    "to": "Substrate stiffness is known to influence stem cell fate [1,2].",
+    "reason": "\"It is well known that ... plays an important role in\" is a template phrase; the cited claim is kept"
+   }
+  ],
+  "edit_ratio": 0.54,
+  "risk": [
+   {
+    "kind": "content_dropped",
+    "detail": "content words dropped: important, play, role, well"
+   }
+  ],
+  "needs_author": []
+ },
+ {
+  "id": "S011",
+  "paragraph": "P5",
+  "section": "Introduction",
+  "original": "However, direct tests on primary osteoblasts is scarce.",
+  "revised": "However, direct tests on primary osteoblasts are scarce.",
+  "types": [
+   "grammar"
+  ],
+  "by": [
+   "model"
+  ],
+  "reasons": [
+   "plural subject \"tests\" needs \"are\""
+  ],
+  "steps": [
+   {
+    "by": "model",
+    "type": "grammar",
+    "from": "However, direct tests on primary osteoblasts is scarce.",
+    "to": "However, direct tests on primary osteoblasts are scarce.",
+    "reason": "plural subject \"tests\" needs \"are\""
+   }
+  ],
+  "edit_ratio": 0.1,
+  "risk": [],
+  "needs_author": []
+ },
+ {
+  "id": "S012",
+  "paragraph": "P5",
+  "section": "Introduction",
+  "original": "Because the osteoblast data set is small, so we used a lot of replicates.",
+  "revised": "Because the osteoblast dataset is small, we used many replicates.",
+  "types": [
+   "grammar"
+  ],
+  "by": [
+   "model"
+  ],
+  "reasons": [
+   "\"because ... so\" double connector removed; \"a lot of\" is informal; \"data set\" unified"
+  ],
+  "steps": [
+   {
+    "by": "model",
+    "type": "grammar",
+    "from": "Because the osteoblast data set is small, so we used a lot of replicates.",
+    "to": "Because the osteoblast dataset is small, we used many replicates.",
+    "reason": "\"because ... so\" double connector removed; \"a lot of\" is informal; \"data set\" unified"
+   }
+  ],
+  "edit_ratio": 0.29,
+  "risk": [
+   {
+    "kind": "content_dropped",
+    "detail": "content words dropped: data, lot, set"
+   }
+  ],
+  "needs_author": []
+ },
+ {
+  "id": "S013",
+  "paragraph": "P5",
+  "section": "Introduction",
+  "original": "The data-set was described in Table 1.",
+  "revised": "The dataset was described in Table 1.",
+  "types": [
+   "term"
+  ],
+  "by": [
+   "term"
+  ],
+  "reasons": [
+   "one spelling of the term throughout"
+  ],
+  "steps": [
+   {
+    "by": "term",
+    "type": "term",
+    "from": "The data-set was described in Table 1.",
+    "to": "The dataset was described in Table 1.",
+    "reason": "one spelling of the term throughout"
+   }
+  ],
+  "edit_ratio": 0.17,
+  "risk": [],
+  "needs_author": []
+ },
+ {
+  "id": "S017",
+  "paragraph": "P7",
+  "section": "Methods",
+  "original": "Mineralized nodules were stained with Alizarin Red S and the stained area was quantified in six wells per condition (Fig. 2).",
+  "revised": "Mineralised nodules were stained with Alizarin Red S and the stained area was quantified in six wells per condition (Fig. 2).",
+  "types": [
+   "spelling"
+  ],
+  "by": [
+   "autofix"
+  ],
+  "reasons": [
+   "UK spelling used throughout: Mineralized -> Mineralised"
+  ],
+  "steps": [
+   {
+    "by": "autofix",
+    "type": "spelling",
+    "from": "Mineralized nodules were stained with Alizarin Red S and the stained area was quantified in six wells per condition (Fig. 2).",
+    "to": "Mineralised nodules were stained with Alizarin Red S and the stained area was quantified in six wells per condition (Fig. 2).",
+    "reason": "UK spelling used throughout: Mineralized -> Mineralised"
+   }
+  ],
+  "edit_ratio": 0.05,
+  "risk": [],
+  "needs_author": []
+ },
+ {
+  "id": "S018",
+  "paragraph": "P7",
+  "section": "Methods",
+  "original": "In order to evaluate YAP, nuclear localisation was scored by immunofluorescence in at least 200 nuclei per gel.",
+  "revised": "To evaluate YAP, nuclear localisation was scored by immunofluorescence in at least 200 nuclei per gel.",
+  "types": [
+   "concision"
+  ],
+  "by": [
+   "model"
+  ],
+  "reasons": [
+   "\"In order to\" -> \"To\""
+  ],
+  "steps": [
+   {
+    "by": "model",
+    "type": "concision",
+    "from": "In order to evaluate YAP, nuclear localisation was scored by immunofluorescence in at least 200 nuclei per gel.",
+    "to": "To evaluate YAP, nuclear localisation was scored by immunofluorescence in at least 200 nuclei per gel.",
+    "reason": "\"In order to\" -> \"To\""
+   }
+  ],
+  "edit_ratio": 0.11,
+  "risk": [],
+  "needs_author": []
+ },
+ {
+  "id": "S019",
+  "paragraph": "P7",
+  "section": "Methods",
+  "original": "The the YAP inhibitor verteporfin was dosed at 1 uM.",
+  "revised": "The YAP inhibitor verteporfin was dosed at 1 μM.",
+  "types": [
+   "mechanical"
+  ],
+  "by": [
+   "autofix"
+  ],
+  "reasons": [
+   "micro_sign: ' uM' -> ' μM'; repeated_word: 'The the' -> 'The'"
+  ],
+  "steps": [
+   {
+    "by": "autofix",
+    "type": "mechanical",
+    "from": "The the YAP inhibitor verteporfin was dosed at 1 uM.",
+    "to": "The YAP inhibitor verteporfin was dosed at 1 μM.",
+    "reason": "micro_sign: ' uM' -> ' μM'; repeated_word: 'The the' -> 'The'"
+   }
+  ],
+  "edit_ratio": 0.18,
+  "risk": [
+   {
+    "kind": "term_dropped",
+    "detail": "named terms / abbreviations dropped: uM"
+   }
+  ],
+  "needs_author": []
+ },
+ {
+  "id": "S023",
+  "paragraph": "P9",
+  "section": "Results",
+  "original": "The fraction of nuclei with nuclear YAP was 31% on 10 kPa gels and 58 % on 40 kPa gels.",
+  "revised": "The fraction of nuclei with nuclear YAP was 31% on 10 kPa gels and 58% on 40 kPa gels.",
+  "types": [
+   "consistency"
+  ],
+  "by": [
+   "autofix"
+  ],
+  "reasons": [
+   "percent sign written without a space throughout"
+  ],
+  "steps": [
+   {
+    "by": "autofix",
+    "type": "consistency",
+    "from": "The fraction of nuclei with nuclear YAP was 31% on 10 kPa gels and 58 % on 40 kPa gels.",
+    "to": "The fraction of nuclei with nuclear YAP was 31% on 10 kPa gels and 58% on 40 kPa gels.",
+    "reason": "percent sign written without a space throughout"
+   }
+  ],
+  "edit_ratio": 0.0,
+  "risk": [],
+  "needs_author": []
+ },
+ {
+  "id": "S025",
+  "paragraph": "P9",
+  "section": "Results",
+  "original": "This results shows that YAP is very important for the stiffness response.",
+  "revised": "These results show that YAP is important for the stiffness response.",
+  "types": [
+   "grammar"
+  ],
+  "by": [
+   "model"
+  ],
+  "reasons": [
+   "\"This results shows\" -> \"These results show\"; \"very\" removed (unquantified intensifier)"
+  ],
+  "steps": [
+   {
+    "by": "model",
+    "type": "grammar",
+    "from": "This results shows that YAP is very important for the stiffness response.",
+    "to": "These results show that YAP is important for the stiffness response.",
+    "reason": "\"This results shows\" -> \"These results show\"; \"very\" removed (unquantified intensifier)"
+   }
+  ],
+  "edit_ratio": 0.2,
+  "risk": [],
+  "needs_author": []
+ },
+ {
+  "id": "S026",
+  "paragraph": "P9",
+  "section": "Results",
+  "original": "In Saos-2 cells nodule area did not differ between the stiffnesses, which is a obvious limitation.",
+  "revised": "In Saos-2 cells nodule area did not differ between the stiffnesses, which is an obvious limitation.",
+  "types": [
+   "mechanical"
+  ],
+  "by": [
+   "autofix"
+  ],
+  "reasons": [
+   "a_an: 'a obvious' -> 'an obvious'"
+  ],
+  "steps": [
+   {
+    "by": "autofix",
+    "type": "mechanical",
+    "from": "In Saos-2 cells nodule area did not differ between the stiffnesses, which is a obvious limitation.",
+    "to": "In Saos-2 cells nodule area did not differ between the stiffnesses, which is an obvious limitation.",
+    "reason": "a_an: 'a obvious' -> 'an obvious'"
+   }
+  ],
+  "edit_ratio": 0.06,
+  "risk": [],
+  "needs_author": []
+ },
+ {
+  "id": "S029",
+  "paragraph": "P11",
+  "section": "Discussion",
+  "original": "We didn't test in vivo scaffolds, but this will be a huge breakthrough in the future!",
+  "revised": "We did not test in vivo scaffolds, but this will be a breakthrough in the future.",
+  "types": [
+   "register"
+  ],
+  "by": [
+   "model"
+  ],
+  "reasons": [
+   "contraction expanded; exclamation mark removed; \"huge\" dropped"
+  ],
+  "steps": [
+   {
+    "by": "model",
+    "type": "register",
+    "from": "We didn't test in vivo scaffolds, but this will be a huge breakthrough in the future!",
+    "to": "We did not test in vivo scaffolds, but this will be a breakthrough in the future.",
+    "reason": "contraction expanded; exclamation mark removed; \"huge\" dropped"
+   }
+  ],
+  "edit_ratio": 0.17,
+  "risk": [],
+  "needs_author": [
+   "\"breakthrough\" is promotional: the author should decide whether to keep or soften it"
+  ]
+ }
+]

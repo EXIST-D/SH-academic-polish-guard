@@ -1,0 +1,37 @@
+JFLEG dev+test: 1501 sentences x 4 human corrections
+1. false alarms on human corrections: 779 / 5175 pairs with an error-level flag (15.1%); by kind: {'quantifier_changed': 273, 'strengthened': 145, 'negation_changed': 121, 'conditional_changed': 117, 'causal_added': 99, 'weakened': 83}
+   (rewrites above 85%% of the tokens are an error by design: JFLEG's fluency edits sometimes rewrite whole sentences)
+   excluding the rewrites: 773 / 5169 (15.0%)
+2. seeded meaning changes on human corrections (caught = any error-level flag):
+   negation dropped                                         334 cases  caught 80%
+   number changed                                            27 cases  caught 93%
+   quantifier swapped (all/some/most/few/only)              227 cases  caught 100%
+   hedge strengthened (may/might/could -> will)              94 cases  caught 100%
+   modal weakened (will/must -> may)                        254 cases  caught 98%
+   conditional dropped (if/unless/when)                      87 cases  caught 100%
+   direction inverted (increase<->decrease, more<->less)    184 cases  caught 95%
+3. academic sentences (hand-written) with seeded changes:
+   negation dropped                                           7 cases  caught 100%
+   number changed                                            25 cases  caught 100%
+   unit changed                                               6 cases  caught 100%
+   citation changed                                          10 cases  caught 100%
+   quantifier changed                                         9 cases  caught 100%
+   hedge strengthened                                         7 cases  caught 100%
+   causal wording added                                       3 cases  caught 100%
+   conditional changed                                        5 cases  caught 100%
+   direction inverted                                        13 cases  caught 100%
+   bound changed                                              6 cases  caught 100%
+   correct polishes of the same sentences flagged as error: 0 / 40
+4. precision of detector rules against the human corrections (hit is true when >=2 of 4 corrections change the phrase):
+   lowercase_start        hits  175  precision 70%
+   can_not                hits   25  precision 36%
+   a_an                   hits   17  precision 100%
+   repeated_word          hits   11  precision 73%
+   informations           hits    9  precision 100%
+   article_uncountable    hits    4  precision 100%
+   double_connector       hits    3  precision 100%
+   mention_about          hits    2  precision 100%
+   agree_pl_subject2      hits    1  precision 100%
+   these_singular         hits    1  precision 0%
+   agree_pl_subject       hits    1  precision 100%
+   composed_by            hits    1  precision 100%

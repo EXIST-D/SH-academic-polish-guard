@@ -1,0 +1,61 @@
+=== edit S003
+revised: With advances in tissue engineering, researchers are increasingly interested in substrate stiffness.
+type: wording
+reason: replaces the template opening "With the development of ... more and more ... pay attention to" with direct academic phrasing; meaning unchanged
+
+=== edit S005
+revised: The mineralised nodule area on 10 kPa gels was 2.3-fold higher than that on 40 kPa gels (p = 0.004, n = 6).
+type: grammar
+reason: subject-verb agreement (area ... was)
+
+=== edit S006
+revised: Nuclear YAP localisation was lower on soft gels, which suggests that YAP signalling may mediate part of the stiffness response [3].
+type: grammar
+reason: "a part of" -> "part of"; spelling made consistent
+
+=== edit S009
+revised: Substrate stiffness is known to influence stem cell fate [1,2].
+type: wording
+reason: "It is well known that ... plays an important role in" is a template phrase; the cited claim is kept
+
+=== edit S011
+revised: However, direct tests on primary osteoblasts are scarce.
+type: grammar
+reason: plural subject "tests" needs "are"
+
+=== edit S012
+revised: Because the osteoblast dataset is small, we used many replicates.
+type: grammar
+reason: "because ... so" double connector removed; "a lot of" is informal; "data set" unified
+
+=== edit S018
+revised: To evaluate YAP, nuclear localisation was scored by immunofluorescence in at least 200 nuclei per gel.
+type: concision
+reason: "In order to" -> "To"
+
+=== edit S025
+revised: These results show that YAP is important for the stiffness response.
+type: grammar
+reason: "This results shows" -> "These results show"; "very" removed (unquantified intensifier)
+
+=== edit S028
+revised: Our findings differ from the opinion that stiffer matrices promote osteogenic differentiation.
+type: register
+reason: tone down the absolute wording (this edit is meant to be REJECTED: it drops 'always', so it changes the claim the author makes)
+
+=== edit S029
+revised: We did not test in vivo scaffolds, but this will be a breakthrough in the future.
+type: register
+reason: contraction expanded; exclamation mark removed; "huge" dropped
+
+=== term
+canonical: dataset
+variants: data set; data-set
+reason: one spelling of the term throughout
+
+=== keep S028
+rule: claim_wording
+reason: the author's absolute claim ("always", "completely") is a scientific statement, not a style choice: flagged for the author
+
+=== flag S029
+note: "breakthrough" is promotional: the author should decide whether to keep or soften it

@@ -1,0 +1,27 @@
+{
+ "decisions": [
+  {
+   "canonical": "dataset",
+   "variants": [
+    "data set",
+    "data-set"
+   ],
+   "sentences": 1,
+   "replacements": 1,
+   "reason": "one spelling of the term throughout",
+   "skipped": []
+  }
+ ],
+ "open_variants": [],
+ "abbreviations": {
+  "CNN": {
+   "definitions": [
+    {
+     "long": "convolutional neural network",
+     "sentence": "S032"
+    }
+   ],
+   "uses": 2
+  }
+ }
+}
